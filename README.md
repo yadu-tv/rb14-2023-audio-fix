@@ -44,8 +44,9 @@ This repository includes details on how to fix Speakers (ALC298) not working in 
     [Install]
     WantedBy=multi-user.target 
     ```
-4. Enable the service using
+4. Change permissions and enable the service using
     ```bash
+    sudo chmod 755 /usr/bin/rb_audio.sh
     sudo systemctl enable rb_audio.service
     ```
 5. Restart and test speakers
