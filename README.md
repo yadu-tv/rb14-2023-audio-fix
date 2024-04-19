@@ -49,3 +49,5 @@ This repository includes details on how to fix Speakers (ALC298) not working in 
     sudo systemctl enable rb_audio.service
     ```
 5. Restart and test speakers
+
+Credits to (jamir)[https://bugzilla.kernel.org/show_bug.cgi?id=207423] from this post
